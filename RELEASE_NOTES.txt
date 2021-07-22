@@ -1,0 +1,10 @@
+
+
+                        Vaadin Yarn Shop Demo
+                        Version 1.0
+                        Release Notes
+                        2021-07-22
+
+This is the first official version and no special upgrade instruction should
+be needed.
+
