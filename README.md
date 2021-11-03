@@ -5,7 +5,7 @@ Vaadin Yarn Shop Demo is a Vaadin application running in Spring Boot together wi
 This Vaadin application is based on the Spring Boot and Vaadin tutorial application source code found here:
 [CRM Tutorial](https://github.com/vaadin-learning-center/crm-tutorial)
 
-Apart from standard Vaadin components used there is also a color picker component that has been included. This is based on this project:
+The Vaadin version used is 14. Apart from standard Vaadin components used there is also a color picker component that has been included. This is based on this project:
 [Color Picker Field for Flow](https://vaadin.com/directory/component/color-picker-field-for-flow)
 
 The GUI has been extended with more functionality and with a connection to a MySql database.
@@ -13,6 +13,13 @@ The GUI has been extended with more functionality and with a connection to a MyS
 Among the new functionality is links between the different options in the drawer on the lefthand side. You go to the linked object by double-clicking on the row. There is also an explicit link from Yarn to Alternative Yarn which is shown as a separate column in the table.
 
 Both the application and the MySql database are built as docker containers. For more information on how to build the application and database parts, see the README files in their folders.
+
+You need the following development tools to build and deploy as described in the documentation:
+ * Java JDK 11 or later
+ * Maven 3
+ * Docker
+
+To develop the applications you need IntelliJ IDEA or another IDE that supports Java.
 
 Below is described how to deploy them on a server.
 
